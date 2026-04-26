@@ -1,4 +1,4 @@
-ChatBot — quick start (short)
+ChatBot — quick start 
 
 What
 - Small local RAG demo: ingest PDFs into a Chroma vector store and chat against them.
@@ -25,6 +25,3 @@ Populate DB (run once)
 Run chat
 - python chatbot.py
 
-Security notes
-- Rotate any leaked keys immediately.
-- Never commit .env or API keys. Add .env to .gitignore and remove it from git history if accidentally
